@@ -1,0 +1,8 @@
+<app-header
+(clickedSection)="handleClickedSection($event)"></app-header>
+<div class="container">
+  <div class="col-md-12">
+    <app-recipes *ngIf="selectedSection === 'recipes'"></app-recipes>
+    <app-shopping-list *ngIf="selectedSection === 'shopping-list'"></app-shopping-list>
+  </div>
+</div>
