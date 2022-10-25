@@ -6,11 +6,4 @@ import {Component} from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  // showRecipes: boolean = true;
-  // showShoppingList: boolean = false;
-  selectedSection: string = 'recipes';
-
-  handleClickedSection(section: string) {
-    this.selectedSection = section;
-  }
 }
